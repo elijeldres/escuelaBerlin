@@ -2,11 +2,19 @@
 
 #all files .log
 *.log 
-# file in a folder with 
-
-C00/.vscode/
-Ctest/.vscode/
+# all files in Ctest folder with .exe 
 Ctest/*.exe
+
+# all files in C00 folder with .exe
+C00/*.exe
+
+#files in C00 folder 
+C00/.vscode/
+
+#files in Ctest folder 
+Ctest/.vscode/
+
+#files in Shell00 folder
 Shell00/ex01/testShell00
 shell00/ex02/test1
 shell00/ex02/test2
