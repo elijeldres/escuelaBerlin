@@ -1,11 +1,17 @@
-ex01/testShell00
-ex02/test0/
-ex02/test2/
-ex02/test6/
+# file that ignore files to not go into git via add. 
 
-ex02/test1
-ex02/test3
-ex02/test4
-ex02/test5
+#all files .log
+*.log 
+# file in a folder with 
+
+C00/.vscode/
+Ctest/.vscode/
+Ctest/*.exe
+Shell00/ex01/testShell00
+shell00/ex02/test1
+shell00/ex02/test2
+shell00/ex02/test3
+shell00/ex02/test4
+shell00/ex02/test5
 
 
